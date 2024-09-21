@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>samykthavarthe.blog</title>
+    <link rel="stylesheet" href="sam.css">
+    <link rel="preconnet" href="https://fonts.gstatic.com">
+    <link href="https//fonts.goggleapis.com.css2?
+    family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="sam.logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="sam1.html">HOME</a></li>
+                    <li><a href="sam2about.html">ABOUT</a></li>
+                    <li><a href="sam3course.html">NEWS</a></li>
+                    <li id="present"><a href="sam4blog.html">BLOG</a></li>
+                    <li><a href="sam5contact.html">CONTACT</a></li>
+                </ul>
+             </div>
+             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Our Social Media</h1>
+    </section>
+   
+    <!--   blog page content  -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="Social.jpg">
+                <h2>Approved by Government of India </h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos quaerat asperiores ab tempora iusto soluta, omnis nisi aspernatur 
+                    cumque saepe ipsum eligendi et hic recusandae, culpa numquam cupiditate laboriosam provident!
+                Cum, doloribus ipsam quos tempora similique molestias aspernatur reiciendis rem perferendis
+                 porro est, explicabo voluptatum itaque earum quisquam illum amet commodi consequuntur minima exercitationem voluptatem impedit,
+                  debitis quidem accusantium! Incidunt!</p>
+                  <br>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus inventore dicta eligendi necessitatibus, minus cupiditate quod, quidem, nihil animi iusto obcaecati nulla ducimus pariatur omnis natus facilis voluptatem repudiandae quas!
+                  Nobis rerum at placeat animi consequuntur totam facere veniam aliquid doloribus commodi, magnam, dicta suscipit itaque quas id voluptates sequi reprehenderit harum molestiae necessitatibus. Aspernatur exercitationem sequi quo dolorem dolor.</p>
+                  <br>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae assumenda possimus, perferendis natus quia eos voluptate nam culpa. Sapiente, aliquam perferendis. Sequi odit tempore ipsam qui sint nam temporibus unde!
+                  Illo, eos exercitationem. Totam quisquam dolorum nisi recusandae consequatur? Sint odio ab, temporibus natus at incidunt nostrum obcaecati odit perspiciatis praesentium qui veritatis saepe! Quidem ducimus eius tempora minus suscipit.</p>
+
+
+                  <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                  </div>
+            </div>
+            <div class="blog-right">
+            <h3>Media</h3>
+            <div>
+                <span><a href="index.html">Samyukthavarthe.com <i class="fa-brands fa-blogger"></i></a></span>
+                <span><a href="index.html">1.9 millon</a></span>
+            </div>
+            <div>
+                <span><a href="index.html">Samyukthavarthe <i class="fa-brands fa-youtube"></i></a></span>
+                <span><a href="index.html">1.8 millon</a></span>
+            </div>
+            <div>
+                <span><a href="index.html">Samyukthavarthe  <i class="fa-brands fa-facebook"></i></a></span>
+                <span><a href="index.html">1 millon</a></span>
+            </div>
+            <div>
+                <span><a href="index.htlm">Samyukthavarthe <i class="fa-brands fa-instagram"></i></a></span>
+                <span><a href="index.html">1.3 millon</a></span>
+            </div>
+            <div>
+                <span><a href="index.html">Samyukthavarthe <i class="fa-brands fa-twitter"></i></a></span>
+                <span><a href="index.html">1 millon</a></span>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+     
+
+     <!-- footer -->
+     <section class="footer">
+        <h4>About Us</h4>
+            <p id="babu">Narasimhaiah.V Founder and also Editor of Samyukthavarthe news<br>Which was stared in 2001 
+            and running successfully all over Karnataka.</p>
+               <div class="icon">
+                <i class="fa-brands fa-blogger"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+              
+               </div>
+               <p>Made With <i class="fa-regular fa-heart"></i> By  Samyukthavarthe news</p>
+     </section>
+    <!-- java script for close and open memu in small screen -->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
